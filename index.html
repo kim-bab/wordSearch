@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>단어검색</title>
+  <script src="https://kit.fontawesome.com/5b11df227d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  
+  
+  <div class="result-popup hidden">
+    <div class="title">
+      <h2>게임종료</h2>
+      <h3>점수는 <span class="result-score">0</span>점입니다!</h3>
+      <button type="button" class="reset-btn"><i class="fa-solid fa-rotate-right"></i><span>다시하기</span></button>
+    </div>
+  </div>
+  
+  <div class="start-popup">
+    <div class="title">
+      <h2><span style="color:#FB2576;">4글자</span> 단어 퀴즈</h2>
+      <h3>랜덤으로 배치된 글자를 조합하여 단어를 맞춰보세요!</h3>
+      <button type="button" class="start-btn">시작하기</button>
+    </div>
+  </div>
+
+<main class="content">
+    <div class="inner-content">
+      <div class="setTime">
+        <i class="fa-solid fa-clock"></i><span class="timer">30</span>
+        <i class="fa-solid fa-star"></i><span class="score">0</span>
+      </div>
+      <div class="word-content">
+        <div class="word" id="word-content-top">
+          <p></p>
+          <p></p>
+        </div>
+        <div class="word" id="word-content-bottom">
+          <p></p>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="inner-header">
+        <div class="search-box">
+            <input type="text" class="input-box">
+        </div>
+    </div>
+
+      <div class="true-result"><i class="fa-solid fa-o"></i></div>
+      <div class="false-result"><i class="fa-solid fa-xmark"></i></div>
+    </div>
+</main>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
