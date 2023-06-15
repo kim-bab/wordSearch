@@ -1,6 +1,6 @@
 ### Vanilla Javascript로 제작한 단어 맞히기 게임
 
-<a href="https://kim-bab.github.io/todolist/main.html">프로젝트 링크</a>🚀🚀
+<a href="https://kim-bab.github.io/wordSearch/">프로젝트 링크</a>🚀🚀
 
 1. 시작화면<br>
 ![1](https://github.com/kim-bab/wordSearch/assets/79827829/6cf30b91-e452-4690-9aae-a4ddf84d1fb4)
